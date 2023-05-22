@@ -1,0 +1,27 @@
+<!DOCTYPE html>       
+<html>
+    <head>
+        <title>
+            Assignment-02, The Simon Memory Game
+        </title>
+
+        
+        <link rel="stylesheet" href="assignment-02.css">
+
+    </head>
+
+    <body>
+        <div class="black"></div>   <!--The black circle in the middle-->
+        <div id="green" class="green"></div>    <!--the green one-->
+        <div id="red" class="red"></div>    <!--the red one-->
+        <div id="yellow" class="yellow"></div>  <!--the yellow one-->
+        <div id="blue" class="blue"></div>  <!--the blue one...-->
+        <div id="light" class="light"></div>    <!--the little light that will swith between red and green-->
+        <button id="btn" class="button" onclick="setTimeout(change)">START</button>   <!--start button, change the light, then the change() function will start the game after 3 seconds-->
+        <div id="last" class="last">00</div>    <!--the score of last game, on the right-->
+        <div id="best" class="best">00</div>    <!--the highest score, on the left-->
+
+        <script src="assignment-02.js"></script>
+
+    </body>
+</html>

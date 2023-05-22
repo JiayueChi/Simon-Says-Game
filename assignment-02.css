@@ -1,0 +1,114 @@
+.black {            /* The black yoke in the middle */
+    height: 200px;
+    width: 200px;
+    background-color : black;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    border: 5px solid grey;
+    background-image:
+    linear-gradient(
+      to top, 
+      black, #282828)
+}
+
+.green {            /* The green yoke */
+    height: 140px;
+    width: 140px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 470px;
+    border: 5px solid black;
+}
+
+.red {
+    height: 140px;
+    width: 140px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 690px;
+    border: 5px solid black;
+}
+
+.yellow {           /* red */
+    height: 140px;
+    width: 140px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    position: absolute;
+    top: 380px;
+    left: 470px;
+    border: 5px solid black;
+}
+
+.blue {             /* blooooooooo.... */
+    height: 140px;
+    width: 140px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 380px;
+    left: 690px;
+    border: 5px solid black;
+}
+
+.light {        /* The light, might be red might be green  */
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 390px;
+    left: 650px;
+}
+
+.button {       /* Start button, it will start the game...hopefully */
+    position: absolute;
+    top: 350px;
+    left: 615px;
+    font-size: 16px;
+    font-family: Orbitron;
+}
+
+.best {         /* best score, on the right */
+    position: absolute;
+    width: 35px;
+    height:25px;
+    background: grey;
+    border-radius: 5px;
+    font-family: Orbitron;
+    text-align: center;
+    top: 350px;
+    left: 575px;
+    font-size: 20px;
+}
+
+.last {         /* the score of last game played, on the left */
+    position: absolute;
+    width: 35px;
+    height:25px;
+    background: grey;
+    border-radius: 5px;
+    font-family: Orbitron;
+    text-align: center;
+    top: 350px;
+    left: 700px;
+    font-size: 20px;
+}
+
+@font-face {        /* the Orbitron font face */
+                    /* Thanks this website for intruducing importing fonts https://www.w3schools.com/howto/tryit.asp?font=Orbitron */
+                    /* Font-face from here https://fonts.googleapis.com/css?family=Orbitron */
+                    /* This website introduced me font-face https://css-tricks.com/snippets/css/using-font-face-in-css/ */
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    src: url(http://fonts.gstatic.com/s/orbitron/v25/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6BoWg1fDAlp7lk.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
